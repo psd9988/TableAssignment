@@ -1,0 +1,33 @@
+table,th,td{
+  border: 1px solid black;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+td{
+  padding: 5px;
+}
+
+body{
+  margin-top: 30px;
+}
+
+tbody tr:nth-of-type(2n){
+  background: #CCC;
+}
+
+thead,tfoot{
+  background-color: rgb(27, 161, 27);
+  color: white;
+}
+
+.Titles{
+  background-color: rgb(151, 237, 114);
+  color: rgb(73, 72, 72);
+}
+
+div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
